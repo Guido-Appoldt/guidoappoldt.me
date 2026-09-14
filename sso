@@ -1,0 +1,971 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>社科机会周报｜海报画廊</title>
+  <style>
+    :root{--ink:#0b0a0f;--violet:#6d3cff;--paper:#faf9fd;--line:#d8d4e3}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"IBM Plex Sans SC","PingFang SC",system-ui,sans-serif}
+    header{position:sticky;top:0;z-index:3;padding:22px clamp(18px,4vw,54px);background:rgba(250,249,253,.94);backdrop-filter:blur(16px);border-bottom:2px solid var(--ink)}
+    .top{display:flex;align-items:end;justify-content:space-between;gap:24px}.count{font-size:14px}.controls{display:grid;grid-template-columns:repeat(3,minmax(160px,220px));gap:10px;margin-top:16px}
+    select{height:44px;border:2px solid var(--ink);background:white;padding:0 12px;font:inherit;font-weight:650;border-radius:0}main{padding:28px clamp(18px,4vw,54px) 60px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:24px}.card{min-width:0}.poster-link{display:block;background:#bba7ff;border:2px solid var(--ink);box-shadow:8px 8px 0 #d6cdf5;transition:.15s transform}.poster-link:hover{transform:translate(-3px,-3px)}img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover}
+    .meta{display:flex;justify-content:space-between;gap:10px;margin-top:16px;color:var(--violet);font-size:13px;font-weight:800}.card h2{font-family:"Arial Black",sans-serif;font-size:19px;line-height:1.05;margin:8px 0 6px;overflow-wrap:anywhere}.card p{font-size:15px;line-height:1.35;margin:0 0 8px}.card-footer{display:flex;align-items:baseline;justify-content:space-between;gap:8px;flex-wrap:wrap}.deadline{font-size:12px;font-weight:750;color:#686371}.source{color:var(--ink);font-size:12px;font-weight:850;text-decoration-color:var(--violet);text-decoration-thickness:2px;text-underline-offset:3px;white-space:nowrap}.source:hover,.source:focus-visible{color:var(--violet)}.empty{display:none;padding:60px 0;font-size:20px;font-weight:800}
+    @media(max-width:720px){.top{align-items:start;flex-direction:column;gap:6px}.controls{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 12px}.card h2{font-size:15px}.card p{font-size:13px}.meta{font-size:11px}.deadline,.source{font-size:11px}.poster-link{box-shadow:5px 5px 0 #d6cdf5}}
+  </style>
+</head>
+<body>
+  <header><div class="top"><h1 style="margin:0">社科机会周报海报画廊</h1><div class="count"><b id="shown">94</b> / 94 张</div></div>
+    <div class="controls">
+      <select id="type"><option value="">全部类型</option><option>博后机会</option><option>博士机会</option><option>访学机会</option><option>海外教职</option><option>全奖博士</option><option>全奖硕士</option><option>特刊征稿</option><option>文集征稿</option><option>学术工作坊</option><option>学术会议</option><option>学术活动</option><option>学术课程</option></select>
+      <select id="country"><option value="">全部国家 / 地区</option><option>奥地利</option><option>比利时</option><option>波兰</option><option>丹麦</option><option>德国</option><option>法国</option><option>国际</option><option>韩国</option><option>荷兰</option><option>加拿大</option><option>美国</option><option>南非</option><option>挪威</option><option>葡萄牙</option><option>瑞典</option><option>沙特阿拉伯</option><option>未注明</option><option>西班牙</option><option>线上</option><option>意大利</option><option>英国</option><option>越南</option><option>中国台湾</option><option>中国香港</option></select>
+      <select id="sort"><option value="asc">DDL：由早至晚</option><option value="desc">DDL：由晚至早</option></select>
+    </div>
+  </header>
+  <main><div class="grid" id="grid"><article class="card" data-type="博后机会" data-country="奥地利" data-date="2026-09-11" data-id="28_vienna_medem_postdoc">
+    <a class="poster-link" href="renders/28_vienna_medem_postdoc.png" target="_blank"><img loading="lazy" src="renders/28_vienna_medem_postdoc.png" alt="MEDem 选举民主监测 研究博后"></a>
+    <div class="meta"><span>博后机会</span><span>奥地利</span></div>
+    <h2>UNIVERSITY OF VIENNA</h2>
+    <p>MEDem 选举民主监测 研究博后</p>
+    <div class="card-footer">
+      <div class="deadline">原申请截止 2026.09.11</div>
+      <a class="source" href="https://jobs.univie.ac.at/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术工作坊" data-country="荷兰" data-date="2026-09-14" data-id="01_nicole_workshop">
+    <a class="poster-link" href="renders/01_nicole_workshop.png" target="_blank"><img loading="lazy" src="renders/01_nicole_workshop.png" alt="社交媒体时代的场地变迁 与公众接受"></a>
+    <div class="meta"><span>学术工作坊</span><span>荷兰</span></div>
+    <h2>NICOLE 2026</h2>
+    <p>社交媒体时代的场地变迁 与公众接受</p>
+    <div class="card-footer">
+      <div class="deadline">一页摘要截止 2026.09.14</div>
+      <a class="source" href="https://nicole.org/news-events-and-workshop/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="西班牙" data-date="2026-09-14" data-id="75_media_industries_2027">
+    <a class="poster-link" href="renders/75_media_industries_2027.png" target="_blank"><img loading="lazy" src="renders/75_media_industries_2027.png" alt="媒体产业与文化生产 会议征稿"></a>
+    <div class="meta"><span>学术会议</span><span>西班牙</span></div>
+    <h2>MEDIA INDUSTRIES 2027</h2>
+    <p>媒体产业与文化生产 会议征稿</p>
+    <div class="card-footer">
+      <div class="deadline">提案截止 2026.09.14</div>
+      <a class="source" href="https://form.jotform.com/261425199160356" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博后机会" data-country="美国" data-date="2026-09-15" data-id="02_princeton_piirs_postdoc">
+    <a class="poster-link" href="renders/02_princeton_piirs_postdoc.png" target="_blank"><img loading="lazy" src="renders/02_princeton_piirs_postdoc.png" alt="国际与区域研究 博后项目"></a>
+    <div class="meta"><span>博后机会</span><span>美国</span></div>
+    <h2>PRINCETON</h2>
+    <p>国际与区域研究 博后项目</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.09.15</div>
+      <a class="source" href="https://piirs.princeton.edu/funding-fellowships/piirs-postdoctoral-fellows" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博士机会" data-country="德国" data-date="2026-09-15" data-id="29_max_planck_climate_comms_phd">
+    <a class="poster-link" href="renders/29_max_planck_climate_comms_phd.png" target="_blank"><img loading="lazy" src="renders/29_max_planck_climate_comms_phd.png" alt="气候政策信息与计算传播 博士机会"></a>
+    <div class="meta"><span>博士机会</span><span>德国</span></div>
+    <h2>MAX PLANCK IMPRS–ESM</h2>
+    <p>气候政策信息与计算传播 博士机会</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.09.15</div>
+      <a class="source" href="https://mpimet.mpg.de/en/career/imprs-esm" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="意大利" data-date="2026-09-15" data-id="76_iulm_newspapers_beyond_newspapers">
+    <a class="poster-link" href="renders/76_iulm_newspapers_beyond_newspapers.png" target="_blank"><img loading="lazy" src="renders/76_iulm_newspapers_beyond_newspapers.png" alt="从报纸到播客、社群与 AI 会议征稿"></a>
+    <div class="meta"><span>学术会议</span><span>意大利</span></div>
+    <h2>IULM UNIVERSITY</h2>
+    <p>从报纸到播客、社群与 AI 会议征稿</p>
+    <div class="card-footer">
+      <div class="deadline">提案截止 2026.09.15</div>
+      <a class="source" href="https://www.iulm.it/wps/wcm/connect/iulm/eaac4b1c-c6e5-4088-a74f-00fa7748d2d4/CFP+-+I+giornali+oltre+i+giornali.pdf?MOD=AJPERES" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="英国" data-date="2026-09-16" data-id="30_leeds_norwich_research_assistant">
+    <a class="poster-link" href="renders/30_leeds_norwich_research_assistant.png" target="_blank"><img loading="lazy" src="renders/30_leeds_norwich_research_assistant.png" alt="诺里奇社会语言学项目 招聘研究助理"></a>
+    <div class="meta"><span>海外教职</span><span>英国</span></div>
+    <h2>UNIVERSITY OF LEEDS</h2>
+    <p>诺里奇社会语言学项目 招聘研究助理</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.09.16</div>
+      <a class="source" href="https://jobs.leeds.ac.uk/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术活动" data-country="英国" data-date="2026-09-17" data-id="94_kcl_ai_higher_ed_governance">
+    <a class="poster-link" href="renders/94_kcl_ai_higher_ed_governance.png" target="_blank"><img loading="lazy" src="renders/94_kcl_ai_higher_ed_governance.png" alt="高校 AI 治理：从恐慌走向实践 开放报名"></a>
+    <div class="meta"><span>学术活动</span><span>英国</span></div>
+    <h2>KING'S COLLEGE LONDON</h2>
+    <p>高校 AI 治理：从恐慌走向实践 开放报名</p>
+    <div class="card-footer">
+      <div class="deadline">活动日期 2026.09.17</div>
+      <a class="source" href="https://www.tickettailor.com/events/digitalhumanitieskcl/2361365" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博后机会" data-country="奥地利" data-date="2026-09-20" data-id="46_vienna_media_technology_postdoc">
+    <a class="poster-link" href="renders/46_vienna_media_technology_postdoc.png" target="_blank"><img loading="lazy" src="renders/46_vienna_media_technology_postdoc.png" alt="媒体与技术哲学 研究博后"></a>
+    <div class="meta"><span>博后机会</span><span>奥地利</span></div>
+    <h2>UNIVERSITY OF VIENNA</h2>
+    <p>媒体与技术哲学 研究博后</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.09.20</div>
+      <a class="source" href="https://jobs.univie.ac.at/job/University-Assistant-postdoctoral/1434502433/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="访学机会" data-country="德国" data-date="2026-09-25" data-id="31_daad_heilbronn_ai_visit">
+    <a class="poster-link" href="renders/31_daad_heilbronn_ai_visit.png" target="_blank"><img loading="lazy" src="renders/31_daad_heilbronn_ai_visit.png" alt="Heilbronn AI 资助访学"></a>
+    <div class="meta"><span>访学机会</span><span>德国</span></div>
+    <h2>DAAD HEILBRONN AI</h2>
+    <p>Heilbronn AI 资助访学</p>
+    <div class="card-footer">
+      <div class="deadline">交流周申请 2026.09.25</div>
+      <a class="source" href="https://www.daad.de/en/the-daad/what-we-do/funding-programmes/daad-heilbronn-ai-program/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="全奖博士" data-country="挪威" data-date="2026-09-29" data-id="03_bergen_ai_ethics_phd">
+    <a class="poster-link" href="renders/03_bergen_ai_ethics_phd.png" target="_blank"><img loading="lazy" src="renders/03_bergen_ai_ethics_phd.png" alt="人机协作中的 AI 伦理 博士机会"></a>
+    <div class="meta"><span>全奖博士</span><span>挪威</span></div>
+    <h2>UNIVERSITY OF BERGEN</h2>
+    <p>人机协作中的 AI 伦理 博士机会</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.09.29</div>
+      <a class="source" href="https://www.jobbnorge.no/en/available-jobs/job/307442/phd-position-on-ai-ethics-in-human-ai-constellations-at-ai-learn" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博后机会" data-country="奥地利" data-date="2026-09-30" data-id="04_vienna_ai_psychotherapy_postdoc">
+    <a class="poster-link" href="renders/04_vienna_ai_psychotherapy_postdoc.png" target="_blank"><img loading="lazy" src="renders/04_vienna_ai_psychotherapy_postdoc.png" alt="AI 与心理治疗 研究博后"></a>
+    <div class="meta"><span>博后机会</span><span>奥地利</span></div>
+    <h2>UNIVERSITY OF VIENNA</h2>
+    <p>AI 与心理治疗 研究博后</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.09.30</div>
+      <a class="source" href="https://jobs.univie.ac.at/job/University-Assistant-postdoctoral/1434670533/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="全奖博士" data-country="德国" data-date="2026-09-30" data-id="05_leibniz_iwm_phd">
+    <a class="poster-link" href="renders/05_leibniz_iwm_phd.png" target="_blank"><img loading="lazy" src="renders/05_leibniz_iwm_phd.png" alt="日常媒体实验室 博士职位"></a>
+    <div class="meta"><span>全奖博士</span><span>德国</span></div>
+    <h2>LEIBNIZ IWM</h2>
+    <p>日常媒体实验室 博士职位</p>
+    <div class="card-footer">
+      <div class="deadline">优先审理 2026.09.30</div>
+      <a class="source" href="https://iwm-tuebingen.de/de/karriere/jobs/1014-2026" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-09-30" data-id="06_digital_journalism_special_issue">
+    <a class="poster-link" href="renders/06_digital_journalism_special_issue.png" target="_blank"><img loading="lazy" src="renders/06_digital_journalism_special_issue.png" alt="对话式大模型迎合性 与数字新闻"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>DIGITAL JOURNALISM</h2>
+    <p>对话式大模型迎合性 与数字新闻</p>
+    <div class="card-footer">
+      <div class="deadline">扩展摘要截止 2026.09.30</div>
+      <a class="source" href="https://think.taylorandfrancis.com/special_issues/llm-sycophancy-in-digital-journalism/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博士机会" data-country="荷兰" data-date="2026-09-30" data-id="32_leiden_crisis_decision_phd">
+    <a class="poster-link" href="renders/32_leiden_crisis_decision_phd.png" target="_blank"><img loading="lazy" src="renders/32_leiden_crisis_decision_phd.png" alt="危机情境中的战略决策 博士机会"></a>
+    <div class="meta"><span>博士机会</span><span>荷兰</span></div>
+    <h2>LEIDEN UNIVERSITY</h2>
+    <p>危机情境中的战略决策 博士机会</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.09.30</div>
+      <a class="source" href="https://www.universiteitleiden.nl/en/working-at/job-opportunities" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博士机会" data-country="荷兰" data-date="2026-09-30" data-id="33_uva_emotion_sensitive_ai_phd">
+    <a class="poster-link" href="renders/33_uva_emotion_sensitive_ai_phd.png" target="_blank"><img loading="lazy" src="renders/33_uva_emotion_sensitive_ai_phd.png" alt="政治与政策中的情绪敏感 AI 博士机会"></a>
+    <div class="meta"><span>博士机会</span><span>荷兰</span></div>
+    <h2>UNIVERSITY OF AMSTERDAM</h2>
+    <p>政治与政策中的情绪敏感 AI 博士机会</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.09.30</div>
+      <a class="source" href="https://vacatures.uva.nl/UvA/job/PhD-position-on-emotion-sensitive-AI-in-politics-and-policymaking/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-09-30" data-id="50_jma_ai_scientific_management">
+    <a class="poster-link" href="renders/50_jma_ai_scientific_management.png" target="_blank"><img loading="lazy" src="renders/50_jma_ai_scientific_management.png" alt="AI 赋能科学管理 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNAL OF MANAGEMENT ANALYTICS</h2>
+    <p>AI 赋能科学管理 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2026.09.30</div>
+      <a class="source" href="https://www.servicesetu.org/call-for-paper/journals/jma" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-09-30" data-id="77_eme_identity_community_special_issue">
+    <a class="poster-link" href="renders/77_eme_identity_community_special_issue.png" target="_blank"><img loading="lazy" src="renders/77_eme_identity_community_special_issue.png" alt="数字时代的身份、家庭与社区 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>EXPLORATIONS IN MEDIA ECOLOGY</h2>
+    <p>数字时代的身份、家庭与社区 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.09.30</div>
+      <a class="source" href="https://www.intellectbooks.com/explorations-in-media-ecology#call-for-papers" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="文集征稿" data-country="越南" data-date="2026-09-30" data-id="78_umt_ai_crisis_communication_volume">
+    <a class="poster-link" href="renders/78_umt_ai_crisis_communication_volume.png" target="_blank"><img loading="lazy" src="renders/78_umt_ai_crisis_communication_volume.png" alt="AI 与平台化重塑危机传播 文集征稿"></a>
+    <div class="meta"><span>文集征稿</span><span>越南</span></div>
+    <h2>UMT HO CHI MINH CITY</h2>
+    <p>AI 与平台化重塑危机传播 文集征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.09.30</div>
+      <a class="source" href="http://commlist.org/archive/all/2026-all/msg01157.html" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="全奖博士" data-country="比利时" data-date="2026-10-01" data-id="07_ghent_pfaros_phd">
+    <a class="poster-link" href="renders/07_ghent_pfaros_phd.png" target="_blank"><img loading="lazy" src="renders/07_ghent_pfaros_phd.png" alt="PFAS 治理与可持续创新 博士"></a>
+    <div class="meta"><span>全奖博士</span><span>比利时</span></div>
+    <h2>GHENT UNIVERSITY</h2>
+    <p>PFAS 治理与可持续创新 博士</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.10.01</div>
+      <a class="source" href="https://www.ugent.be/en/work/scientific/doctoral-fellow-138" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="波兰" data-date="2026-10-01" data-id="08_dialogica_special_issue">
+    <a class="poster-link" href="renders/08_dialogica_special_issue.png" target="_blank"><img loading="lazy" src="renders/08_dialogica_special_issue.png" alt="跨符号、多模态与 AI 中介的 意义建构"></a>
+    <div class="meta"><span>特刊征稿</span><span>波兰</span></div>
+    <h2>DIALOGICA</h2>
+    <p>跨符号、多模态与 AI 中介的 意义建构</p>
+    <div class="card-footer">
+      <div class="deadline">全文截止 2026.10.01</div>
+      <a class="source" href="https://dialogica-journal.com/index.php/journal/about" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="2026-10-01" data-id="34_george_mason_public_policy_faculty">
+    <a class="poster-link" href="renders/34_george_mason_public_policy_faculty.png" target="_blank"><img loading="lazy" src="renders/34_george_mason_public_policy_faculty.png" alt="政治学与公共政策 招聘助理教授"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>GEORGE MASON UNIVERSITY</h2>
+    <p>政治学与公共政策 招聘助理教授</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.10.01</div>
+      <a class="source" href="https://jobs.gmu.edu/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-10-01" data-id="51_smq_twenty_five_years">
+    <a class="poster-link" href="renders/51_smq_twenty_five_years.png" target="_blank"><img loading="lazy" src="renders/51_smq_twenty_five_years.png" alt="SMA 二十五年与运动营销 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>SPORT MARKETING QUARTERLY</h2>
+    <p>SMA 二十五年与运动营销 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2026.10.01</div>
+      <a class="source" href="https://www.ama.org/listings/2026/06/11/bridging-the-gap/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术课程" data-country="线上" data-date="2026-10-01" data-id="79_critical_discourse_analysis_course">
+    <a class="poster-link" href="renders/79_critical_discourse_analysis_course.png" target="_blank"><img loading="lazy" src="renders/79_critical_discourse_analysis_course.png" alt="批判话语分析课程 开放报名"></a>
+    <div class="meta"><span>学术课程</span><span>线上</span></div>
+    <h2>CRITICAL DISCOURSE ANALYSIS</h2>
+    <p>批判话语分析课程 开放报名</p>
+    <div class="card-footer">
+      <div class="deadline">报名截止 2026.10.01</div>
+      <a class="source" href="https://www.discoursestudies.org/cdacourse" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="文集征稿" data-country="国际" data-date="2026-10-01" data-id="80_refocus_gaspar_noe_volume">
+    <a class="poster-link" href="renders/80_refocus_gaspar_noe_volume.png" target="_blank"><img loading="lazy" src="renders/80_refocus_gaspar_noe_volume.png" alt="Gaspar Noe 电影研究 文集征稿"></a>
+    <div class="meta"><span>文集征稿</span><span>国际</span></div>
+    <h2>REFOCUS GASPAR NOE</h2>
+    <p>Gaspar Noe 电影研究 文集征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.10.01</div>
+      <a class="source" href="https://www.florianzappe.xyz/call-for-papers" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="2026-10-05" data-id="09_tamu_democracy_cluster">
+    <a class="poster-link" href="renders/09_tamu_democracy_cluster.png" target="_blank"><img loading="lazy" src="renders/09_tamu_democracy_cluster.png" alt="民主公共生活传播学 集群招聘"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>TEXAS A&amp;M</h2>
+    <p>民主公共生活传播学 集群招聘</p>
+    <div class="card-footer">
+      <div class="deadline">开始审理 2026.10.05</div>
+      <a class="source" href="https://faculty.tamu.edu/JobDetail?JobId=190487" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博后机会" data-country="挪威" data-date="2026-10-05" data-id="35_ntnu_digital_health_postdoc">
+    <a class="poster-link" href="renders/35_ntnu_digital_health_postdoc.png" target="_blank"><img loading="lazy" src="renders/35_ntnu_digital_health_postdoc.png" alt="机器学习与老年数字健康 研究博后"></a>
+    <div class="meta"><span>博后机会</span><span>挪威</span></div>
+    <h2>NTNU</h2>
+    <p>机器学习与老年数字健康 研究博后</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.10.05</div>
+      <a class="source" href="https://www.jobbnorge.no/en/available-jobs/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="全奖硕士" data-country="英国" data-date="2026-10-06" data-id="36_chevening_full_masters">
+    <a class="poster-link" href="renders/36_chevening_full_masters.png" target="_blank"><img loading="lazy" src="renders/36_chevening_full_masters.png" alt="Chevening 一年制 全奖硕士"></a>
+    <div class="meta"><span>全奖硕士</span><span>英国</span></div>
+    <h2>CHEVENING 2027 / 28</h2>
+    <p>Chevening 一年制 全奖硕士</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.10.06</div>
+      <a class="source" href="https://www.chevening.org/scholarships/application-timeline/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="2026-10-07" data-id="10_tamu_strategic_communication_practice">
+    <a class="poster-link" href="renders/10_tamu_strategic_communication_practice.png" target="_blank"><img loading="lazy" src="renders/10_tamu_strategic_communication_practice.png" alt="战略传播 实践教授"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>TEXAS A&amp;M</h2>
+    <p>战略传播 实践教授</p>
+    <div class="card-footer">
+      <div class="deadline">开始审理 2026.10.07</div>
+      <a class="source" href="https://faculty.tamu.edu/JobDetail?JobId=190325" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="线上" data-date="2026-10-09" data-id="81_no_nations_punk_conference">
+    <a class="poster-link" href="renders/81_no_nations_punk_conference.png" target="_blank"><img loading="lazy" src="renders/81_no_nations_punk_conference.png" alt="无国界朋克研究 会议征稿"></a>
+    <div class="meta"><span>学术会议</span><span>线上</span></div>
+    <h2>NO NATIONS PUNKS WITHOUT BORDERS</h2>
+    <p>无国界朋克研究 会议征稿</p>
+    <div class="card-footer">
+      <div class="deadline">提案截止 2026.10.09</div>
+      <a class="source" href="http://commlist.org/archive/all/2026-all/msg01162.html" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="2026-10-10" data-id="11_arkansas_communication_democracy">
+    <a class="poster-link" href="renders/11_arkansas_communication_democracy.png" target="_blank"><img loading="lazy" src="renders/11_arkansas_communication_democracy.png" alt="传播与民主方向 助理教授"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>UNIVERSITY OF ARKANSAS</h2>
+    <p>传播与民主方向 助理教授</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.10.10</div>
+      <a class="source" href="https://uasys.wd5.myworkdayjobs.com/en-US/UAF_External_Career_Site/details/Assistant-Professor-of-Communication_R0091072" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="访学机会" data-country="瑞典" data-date="2026-10-11" data-id="37_nordic_africa_visiting_scholar">
+    <a class="poster-link" href="renders/37_nordic_africa_visiting_scholar.png" target="_blank"><img loading="lazy" src="renders/37_nordic_africa_visiting_scholar.png" alt="非洲研究一个月 资助访学"></a>
+    <div class="meta"><span>访学机会</span><span>瑞典</span></div>
+    <h2>NORDIC AFRICA INSTITUTE</h2>
+    <p>非洲研究一个月 资助访学</p>
+    <div class="card-footer">
+      <div class="deadline">申请建议 2026.10.11</div>
+      <a class="source" href="https://nai.uu.se/opportunities/scholarships/nordic-scholarship-programme.html" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="韩国" data-date="2026-10-14" data-id="12_isa_world_congress">
+    <a class="poster-link" href="renders/12_isa_world_congress.png" target="_blank"><img loading="lazy" src="renders/12_isa_world_congress.png" alt="“不确定的生态” 专题分会征稿"></a>
+    <div class="meta"><span>学术会议</span><span>韩国</span></div>
+    <h2>ISA WORLD CONGRESS</h2>
+    <p>“不确定的生态” 专题分会征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.10.14</div>
+      <a class="source" href="https://www.isa-sociology.org/isa-events/xxi-world-congress-of-sociology" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="2026-10-15" data-id="13_chapman_csd_two_roles">
+    <a class="poster-link" href="renders/13_chapman_csd_two_roles.png" target="_blank"><img loading="lazy" src="renders/13_chapman_csd_two_roles.png" alt="传播科学与障碍方向 两岗招聘"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>CHAPMAN UNIVERSITY</h2>
+    <p>传播科学与障碍方向 两岗招聘</p>
+    <div class="card-footer">
+      <div class="deadline">优先审理 2026.10.15</div>
+      <a class="source" href="https://apply.interfolio.com/192613" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="未注明" data-date="2026-10-15" data-id="38_transformative_justice_blog_call">
+    <a class="poster-link" href="renders/38_transformative_justice_blog_call.png" target="_blank"><img loading="lazy" src="renders/38_transformative_justice_blog_call.png" alt="“实践中的转型正义” 博客征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>未注明</span></div>
+    <h2>TRANSFORMATIVE JUSTICE</h2>
+    <p>“实践中的转型正义” 博客征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.10.15</div>
+      <a class="source" href="https://www.linkedin.com/company/transformative-justice-institute/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博后机会" data-country="意大利" data-date="2026-10-16" data-id="14_eui_max_weber_postdoc">
+    <a class="poster-link" href="renders/14_eui_max_weber_postdoc.png" target="_blank"><img loading="lazy" src="renders/14_eui_max_weber_postdoc.png" alt="Max Weber 人文社科 博后项目"></a>
+    <div class="meta"><span>博后机会</span><span>意大利</span></div>
+    <h2>EUROPEAN UNIVERSITY INSTITUTE</h2>
+    <p>Max Weber 人文社科 博后项目</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.10.16</div>
+      <a class="source" href="https://www.eui.eu/apply?id=max-weber-fellowships" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博后机会" data-country="美国" data-date="2026-10-16" data-id="39_cornell_political_economy_tech_postdoc">
+    <a class="poster-link" href="renders/39_cornell_political_economy_tech_postdoc.png" target="_blank"><img loading="lazy" src="renders/39_cornell_political_economy_tech_postdoc.png" alt="政治经济与技术 研究博后"></a>
+    <div class="meta"><span>博后机会</span><span>美国</span></div>
+    <h2>CORNELL UNIVERSITY</h2>
+    <p>政治经济与技术 研究博后</p>
+    <div class="card-footer">
+      <div class="deadline">最终截止 2026.10.16</div>
+      <a class="source" href="https://academicjobsonline.org/ajo/jobs/32502" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博士机会" data-country="丹麦" data-date="2026-10-16" data-id="40_aalborg_school_emotions_phd">
+    <a class="poster-link" href="renders/40_aalborg_school_emotions_phd.png" target="_blank"><img loading="lazy" src="renders/40_aalborg_school_emotions_phd.png" alt="学校情绪的生活经验 博士机会"></a>
+    <div class="meta"><span>博士机会</span><span>丹麦</span></div>
+    <h2>AALBORG UNIVERSITY</h2>
+    <p>学校情绪的生活经验 博士机会</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.10.16</div>
+      <a class="source" href="https://www.vacancies.aau.dk/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-10-16" data-id="52_ccr_media_use_computational_era">
+    <a class="poster-link" href="renders/52_ccr_media_use_computational_era.png" target="_blank"><img loading="lazy" src="renders/52_ccr_media_use_computational_era.png" alt="计算时代的媒体使用与效果 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>COMPUTATIONAL COMMUNICATION RESEARCH</h2>
+    <p>计算时代的媒体使用与效果 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.10.16</div>
+      <a class="source" href="https://journal.computationalcommunication.org/announcement/view/271" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="2026-10-19" data-id="15_colorado_mines_visiting_faculty">
+    <a class="poster-link" href="renders/15_colorado_mines_visiting_faculty.png" target="_blank"><img loading="lazy" src="renders/15_colorado_mines_visiting_faculty.png" alt="Hennebach 访问 助理 / 副教授"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>COLORADO SCHOOL OF MINES</h2>
+    <p>Hennebach 访问 助理 / 副教授</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.10.19</div>
+      <a class="source" href="https://mines.wd1.myworkdayjobs.com/en-US/Mines_Careers/job/Hennebach-Visiting-Assistant-or-Associate-Professor--Humanities--Arts-and-Social-Sciences-Department_JR109521" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="全奖硕士" data-country="德国" data-date="2026-10-31" data-id="16_unu_bonn_masters">
+    <a class="poster-link" href="renders/16_unu_bonn_masters.png" target="_blank"><img loading="lazy" src="renders/16_unu_bonn_masters.png" alt="环境风险与人类安全 联合硕士"></a>
+    <div class="meta"><span>全奖硕士</span><span>德国</span></div>
+    <h2>UNU × BONN</h2>
+    <p>环境风险与人类安全 联合硕士</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.10.31</div>
+      <a class="source" href="https://unu.edu/ehs/learning/msc-geography-environmental-risks-and-human-security" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="美国" data-date="2026-10-31" data-id="17_western_journal_special_issue">
+    <a class="poster-link" href="renders/17_western_journal_special_issue.png" target="_blank"><img loading="lazy" src="renders/17_western_journal_special_issue.png" alt="传播科技如何介入 死亡、临终与哀伤"></a>
+    <div class="meta"><span>特刊征稿</span><span>美国</span></div>
+    <h2>WESTERN JOURNAL OF COMMUNICATION</h2>
+    <p>传播科技如何介入 死亡、临终与哀伤</p>
+    <div class="card-footer">
+      <div class="deadline">扩展摘要截止 2026.10.31</div>
+      <a class="source" href="https://think.taylorandfrancis.com/special_issues/how-communication-technology-mediates-death-dying-and-grief/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="全奖硕士" data-country="南非" data-date="2026-10-31" data-id="41_uct_mastercard_masters">
+    <a class="poster-link" href="renders/41_uct_mastercard_masters.png" target="_blank"><img loading="lazy" src="renders/41_uct_mastercard_masters.png" alt="Mastercard Foundation 全奖硕士"></a>
+    <div class="meta"><span>全奖硕士</span><span>南非</span></div>
+    <h2>UNIVERSITY OF CAPE TOWN</h2>
+    <p>Mastercard Foundation 全奖硕士</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.10.31</div>
+      <a class="source" href="https://uct.ac.za/mastercardfdn/apply-mastercard-foundation-scholars-program" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="英国" data-date="2026-11-02" data-id="82_womens_screen_media_histories_8">
+    <a class="poster-link" href="renders/82_womens_screen_media_histories_8.png" target="_blank"><img loading="lazy" src="renders/82_womens_screen_media_histories_8.png" alt="女性媒体史的档案与策展 会议征稿"></a>
+    <div class="meta"><span>学术会议</span><span>英国</span></div>
+    <h2>WOMEN'S SCREEN HISTORIES 8</h2>
+    <p>女性媒体史的档案与策展 会议征稿</p>
+    <div class="card-footer">
+      <div class="deadline">提案截止 2026.11.02</div>
+      <a class="source" href="https://womensscreenwork.exeter.ac.uk/events/conference" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="文集征稿" data-country="国际" data-date="2026-11-02" data-id="83_routledge_photography_environment">
+    <a class="poster-link" href="renders/83_routledge_photography_environment.png" target="_blank"><img loading="lazy" src="renders/83_routledge_photography_environment.png" alt="摄影与环境 文集章节征稿"></a>
+    <div class="meta"><span>文集征稿</span><span>国际</span></div>
+    <h2>ROUTLEDGE COMPANION</h2>
+    <p>摄影与环境 文集章节征稿</p>
+    <div class="card-footer">
+      <div class="deadline">提案截止 2026.11.02</div>
+      <a class="source" href="http://commlist.org/archive/all/2026-all/msg01165.html" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="意大利" data-date="2026-11-04" data-id="18_ipsa_world_congress">
+    <a class="poster-link" href="renders/18_ipsa_world_congress.png" target="_blank"><img loading="lazy" src="renders/18_ipsa_world_congress.png" alt="不确定的民主"></a>
+    <div class="meta"><span>学术会议</span><span>意大利</span></div>
+    <h2>IPSA 2027</h2>
+    <p>不确定的民主</p>
+    <div class="card-footer">
+      <div class="deadline">论文与分组提案截止 2026.11.04</div>
+      <a class="source" href="https://www.ipsa.org/na/news/call-papers-2027-ipsa-world-congress-now-open" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="线上" data-date="2026-11-06" data-id="19_apprren_online_conference">
+    <a class="poster-link" href="renders/19_apprren_online_conference.png" target="_blank"><img loading="lazy" src="renders/19_apprren_online_conference.png" alt="亚太公共关系、文化 与影响网络"></a>
+    <div class="meta"><span>学术会议</span><span>线上</span></div>
+    <h2>NETWORKS OF INFLUENCE</h2>
+    <p>亚太公共关系、文化 与影响网络</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.11.06</div>
+      <a class="source" href="https://www.linkedin.com/feed/update/urn:li:share:7502959567245332480" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="英国" data-date="2026-11-06" data-id="84_baftss_2027">
+    <a class="poster-link" href="renders/84_baftss_2027.png" target="_blank"><img loading="lazy" src="renders/84_baftss_2027.png" alt="电影电视与银幕研究 年会征稿"></a>
+    <div class="meta"><span>学术会议</span><span>英国</span></div>
+    <h2>BAFTSS 2027</h2>
+    <p>电影电视与银幕研究 年会征稿</p>
+    <div class="card-footer">
+      <div class="deadline">提案截止 2026.11.06</div>
+      <a class="source" href="https://www.baftss.org/conference-2027-info" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="法国" data-date="2026-11-08" data-id="85_grenoble_media_opposition">
+    <a class="poster-link" href="renders/85_grenoble_media_opposition.png" target="_blank"><img loading="lazy" src="renders/85_grenoble_media_opposition.png" alt="反对派媒体、政治行动者 与信息权力 会议征稿"></a>
+    <div class="meta"><span>学术会议</span><span>法国</span></div>
+    <h2>MEDIA OPPOSITION</h2>
+    <p>反对派媒体、政治行动者 与信息权力 会议征稿</p>
+    <div class="card-footer">
+      <div class="deadline">提案截止 2026.11.08</div>
+      <a class="source" href="https://kdrive.infomaniak.com/app/share/3521129/97e752a0-d2ea-49d5-a531-e5acc8a2569f" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博士机会" data-country="美国" data-date="2026-11-15" data-id="42_uiuc_health_equity_phd">
+    <a class="poster-link" href="renders/42_uiuc_health_equity_phd.png" target="_blank"><img loading="lazy" src="renders/42_uiuc_health_equity_phd.png" alt="健康公平与数字心理健康 博士机会"></a>
+    <div class="meta"><span>博士机会</span><span>美国</span></div>
+    <h2>UIUC HEALTH EQUITY LAB</h2>
+    <p>健康公平与数字心理健康 博士机会</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.11.15</div>
+      <a class="source" href="https://health-equity-action-lab.github.io/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="荷兰" data-date="2026-11-15" data-id="86_resaw_2027">
+    <a class="poster-link" href="renders/86_resaw_2027.png" target="_blank"><img loading="lazy" src="renders/86_resaw_2027.png" alt="讲述网络故事：公共互联网史 会议征稿"></a>
+    <div class="meta"><span>学术会议</span><span>荷兰</span></div>
+    <h2>RESAW 2027</h2>
+    <p>讲述网络故事：公共互联网史 会议征稿</p>
+    <div class="card-footer">
+      <div class="deadline">提案截止 2026.11.15</div>
+      <a class="source" href="https://resaw27.neocities.org/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="文集征稿" data-country="加拿大" data-date="2026-11-15" data-id="87_volatile_memory_game_preservation">
+    <a class="poster-link" href="renders/87_volatile_memory_game_preservation.png" target="_blank"><img loading="lazy" src="renders/87_volatile_memory_game_preservation.png" alt="加拿大游戏保存政策与实践 文集征稿"></a>
+    <div class="meta"><span>文集征稿</span><span>加拿大</span></div>
+    <h2>VOLATILE MEMORY</h2>
+    <p>加拿大游戏保存政策与实践 文集征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.11.15</div>
+      <a class="source" href="https://gamepreservation.ca/volatile-memory" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="英国" data-date="2026-11-27" data-id="88_digital_legacy_death_online_2027">
+    <a class="poster-link" href="renders/88_digital_legacy_death_online_2027.png" target="_blank"><img loading="lazy" src="renders/88_digital_legacy_death_online_2027.png" alt="数字死亡、遗产与网络哀悼 会议征稿"></a>
+    <div class="meta"><span>学术会议</span><span>英国</span></div>
+    <h2>DIGITAL LEGACY × DEATH ONLINE</h2>
+    <p>数字死亡、遗产与网络哀悼 会议征稿</p>
+    <div class="card-footer">
+      <div class="deadline">提案截止 2026.11.27</div>
+      <a class="source" href="https://www.birmingham.ac.uk/events/call-for-papers-panels-and-practicepolicy-contributions" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-11-30" data-id="53_ejm_ai_luxury">
+    <a class="poster-link" href="renders/53_ejm_ai_luxury.png" target="_blank"><img loading="lazy" src="renders/53_ejm_ai_luxury.png" alt="AI 时代的奢侈消费 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>EUROPEAN JOURNAL OF MARKETING</h2>
+    <p>AI 时代的奢侈消费 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2026.11.30</div>
+      <a class="source" href="https://www.ama.org/listings/2026/07/02/redefining-luxury-consumption/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-11-30" data-id="54_ijoa_green_hrm_global_south">
+    <a class="poster-link" href="renders/54_ijoa_green_hrm_global_south.png" target="_blank"><img loading="lazy" src="renders/54_ijoa_green_hrm_global_south.png" alt="全球南方的绿色人力资源管理 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>INTERNATIONAL JOURNAL OF ORGANIZATIONAL ANALYSIS</h2>
+    <p>全球南方的绿色人力资源管理 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2026.11.30</div>
+      <a class="source" href="https://www.emerald.com/ijoa/calls-for-submissions/1895/Green-HRM-in-the-Global-South-Establishing" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="英国" data-date="2026-12-01" data-id="20_lse_international_development_two_roles">
+    <a class="poster-link" href="renders/20_lse_international_development_two_roles.png" target="_blank"><img loading="lazy" src="renders/20_lse_international_development_two_roles.png" alt="国际发展 助理教授两岗"></a>
+    <div class="meta"><span>海外教职</span><span>英国</span></div>
+    <h2>LSE</h2>
+    <p>国际发展 助理教授两岗</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.12.01</div>
+      <a class="source" href="https://jobs.lse.ac.uk/V2/Vacancy" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博士机会" data-country="中国香港" data-date="2026-12-01" data-id="43_hong_kong_phd_fellowship">
+    <a class="poster-link" href="renders/43_hong_kong_phd_fellowship.png" target="_blank"><img loading="lazy" src="renders/43_hong_kong_phd_fellowship.png" alt="香港博士奖学金计划 全奖博士"></a>
+    <div class="meta"><span>博士机会</span><span>中国香港</span></div>
+    <h2>HONG KONG PhD FELLOWSHIP</h2>
+    <p>香港博士奖学金计划 全奖博士</p>
+    <div class="card-footer">
+      <div class="deadline">初步申请截止 2026.12.01</div>
+      <a class="source" href="https://www.ugc.edu.hk/eng/rgc/funding_opport/hkpfs/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-12-01" data-id="71_jsm_pls_sem_special_section">
+    <a class="poster-link" href="renders/71_jsm_pls_sem_special_section.png" target="_blank"><img loading="lazy" src="renders/71_jsm_pls_sem_special_section.png" alt="服务研究中的 PLS-SEM 专题专栏征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNAL OF SERVICE MANAGEMENT</h2>
+    <p>服务研究中的 PLS-SEM 专题专栏征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2026.12.01</div>
+      <a class="source" href="https://www.emerald.com/josm/calls-for-submissions/1893/Partial-Least-Squares-Structural-Equation-Modeling" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博士机会" data-country="美国" data-date="2026-12-01" data-id="89_usc_media_arts_practice_phd">
+    <a class="poster-link" href="renders/89_usc_media_arts_practice_phd.png" target="_blank"><img loading="lazy" src="renders/89_usc_media_arts_practice_phd.png" alt="媒体艺术与实践 全奖博士"></a>
+    <div class="meta"><span>博士机会</span><span>美国</span></div>
+    <h2>USC MEDIA ARTS + PRACTICE</h2>
+    <p>媒体艺术与实践 全奖博士</p>
+    <div class="card-footer">
+      <div class="deadline">申请截止 2026.12.01</div>
+      <a class="source" href="https://map.usc.edu/phd" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-12-01" data-id="90_dcs_familiar_feeds_special_issue">
+    <a class="poster-link" href="renders/90_dcs_familiar_feeds_special_issue.png" target="_blank"><img loading="lazy" src="renders/90_dcs_familiar_feeds_special_issue.png" alt="熟悉的信息流，陌生的政治 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>DIGITAL CULTURE &amp; SOCIETY</h2>
+    <p>熟悉的信息流，陌生的政治 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.12.01</div>
+      <a class="source" href="http://commlist.org/archive/all/2026-all/msg01153.html" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="葡萄牙" data-date="2026-12-10" data-id="91_heritages_2027">
+    <a class="poster-link" href="renders/91_heritages_2027.png" target="_blank"><img loading="lazy" src="renders/91_heritages_2027.png" alt="AI、数据与数字文化重塑遗产 会议征稿"></a>
+    <div class="meta"><span>学术会议</span><span>葡萄牙</span></div>
+    <h2>HERITAGES 2027</h2>
+    <p>AI、数据与数字文化重塑遗产 会议征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.12.10</div>
+      <a class="source" href="https://amps-research.com/conference/porto-heritages" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-12-30" data-id="65_jcb_emotion_by_design">
+    <a class="poster-link" href="renders/65_jcb_emotion_by_design.png" target="_blank"><img loading="lazy" src="renders/65_jcb_emotion_by_design.png" alt="新技术时代的情绪设计 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNAL OF CONSUMER BEHAVIOUR</h2>
+    <p>新技术时代的情绪设计 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2026.12.30</div>
+      <a class="source" href="https://onlinelibrary.wiley.com/pb-assets/assets/14791838/cfp/JCB-SI-Emotion-by-Design-14102025-UPDATED-1763054382310.pdf" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-12-31" data-id="74_emr_european_research_projects">
+    <a class="poster-link" href="renders/74_emr_european_research_projects.png" target="_blank"><img loading="lazy" src="renders/74_emr_european_research_projects.png" alt="欧洲研究项目的治理与影响 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>EUROPEAN MANAGEMENT REVIEW</h2>
+    <p>欧洲研究项目的治理与影响 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2026.12.31</div>
+      <a class="source" href="https://onlinelibrary.wiley.com/page/journal/17404762/call-for-papers/si-2026-001040" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="2027-01-01" data-id="22_georgia_college_lecturer">
+    <a class="poster-link" href="renders/22_georgia_college_lecturer.png" target="_blank"><img loading="lazy" src="renders/22_georgia_college_lecturer.png" alt="传播学讲师"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>GEORGIA COLLEGE</h2>
+    <p>传播学讲师</p>
+    <div class="card-footer">
+      <div class="deadline">申请建议 2027.01.01</div>
+      <a class="source" href="https://lnkd.in/edxDrDmS" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-01-01" data-id="72_ijem_financial_misconduct">
+    <a class="poster-link" href="renders/72_ijem_financial_misconduct.png" target="_blank"><img loading="lazy" src="renders/72_ijem_financial_misconduct.png" alt="新兴市场中的金融不当行为 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>INTERNATIONAL JOURNAL OF EMERGING MARKETS</h2>
+    <p>新兴市场中的金融不当行为 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.01.01</div>
+      <a class="source" href="https://www.emerald.com/ijoem/calls-for-submissions/1651/Financial-Misconduct-in-Emerging-Markets" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="未注明" data-date="2027-01-15" data-id="49_ajsp_east_asian_scholarship_special_issue">
+    <a class="poster-link" href="renders/49_ajsp_east_asian_scholarship_special_issue.png" target="_blank"><img loading="lazy" src="renders/49_ajsp_east_asian_scholarship_special_issue.png" alt="让东亚社会心理学研究 走向全球 · 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>未注明</span></div>
+    <h2>ASIAN JOURNAL OF SOCIAL PSYCHOLOGY</h2>
+    <p>让东亚社会心理学研究 走向全球 · 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.01.15</div>
+      <a class="source" href="https://onlinelibrary.wiley.com/journal/1467839x" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-01-15" data-id="55_tqm_modeling_methods">
+    <a class="poster-link" href="renders/55_tqm_modeling_methods.png" target="_blank"><img loading="lazy" src="renders/55_tqm_modeling_methods.png" alt="质量管理研究的建模方法 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>THE TQM JOURNAL</h2>
+    <p>质量管理研究的建模方法 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.01.15</div>
+      <a class="source" href="https://www.emerald.com/tqm/calls-for-submissions/1794/Advances-in-Modeling-Methods-and-Applications-for" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="德国" data-date="2027-01-15" data-id="92_gmj_postindustrial_communities">
+    <a class="poster-link" href="renders/92_gmj_postindustrial_communities.png" target="_blank"><img loading="lazy" src="renders/92_gmj_postindustrial_communities.png" alt="后工业社区的声音、可见性与价值 专栏征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>德国</span></div>
+    <h2>GLOBAL MEDIA JOURNAL GERMAN EDITION</h2>
+    <p>后工业社区的声音、可见性与价值 专栏征稿</p>
+    <div class="card-footer">
+      <div class="deadline">全文截止 2027.01.15</div>
+      <a class="source" href="http://commlist.org/archive/all/2026-all/msg01168.html" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-01-31" data-id="73_jbe_moral_repair">
+    <a class="poster-link" href="renders/73_jbe_moral_repair.png" target="_blank"><img loading="lazy" src="renders/73_jbe_moral_repair.png" alt="纠正错误：道德修复的理论与实践 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNAL OF BUSINESS ETHICS</h2>
+    <p>纠正错误：道德修复的理论与实践 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.01.31</div>
+      <a class="source" href="https://sbeonline.org/2026/05/online-workshop-and-call-for-papers-special-issue-on-moral-repair-at-the-journal-of-business-ethics/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-02-01" data-id="56_jmm_divisive_world">
+    <a class="poster-link" href="renders/56_jmm_divisive_world.png" target="_blank"><img loading="lazy" src="renders/56_jmm_divisive_world.png" alt="分裂世界中的营销与政治力量 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNAL OF MARKETING MANAGEMENT</h2>
+    <p>分裂世界中的营销与政治力量 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.02.01</div>
+      <a class="source" href="https://www.ama.org/listings/2026/08/21/marketing-in-a-divisive-world/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-02-27" data-id="57_jom_distinctive_supply_chains">
+    <a class="poster-link" href="renders/57_jom_distinctive_supply_chains.png" target="_blank"><img loading="lazy" src="renders/57_jom_distinctive_supply_chains.png" alt="差异化供应链与多流网络 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNAL OF OPERATIONS MANAGEMENT</h2>
+    <p>差异化供应链与多流网络 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">扩展摘要截止 2027.02.27</div>
+      <a class="source" href="https://sites.google.com/view/journalofoperationsmanagement/special-issues" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-03-01" data-id="58_jmm_ai_rethinking_knowledge">
+    <a class="poster-link" href="renders/58_jmm_ai_rethinking_knowledge.png" target="_blank"><img loading="lazy" src="renders/58_jmm_ai_rethinking_knowledge.png" alt="AI 与营销：重新思考知识 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNAL OF MARKETING MANAGEMENT</h2>
+    <p>AI 与营销：重新思考知识 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.03.01</div>
+      <a class="source" href="https://www.ama.org/listings/2026/08/06/artificial-intelligence-and-marketing-2/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-03-01" data-id="66_ijem_crypto_emerging_economies">
+    <a class="poster-link" href="renders/66_ijem_crypto_emerging_economies.png" target="_blank"><img loading="lazy" src="renders/66_ijem_crypto_emerging_economies.png" alt="新兴经济体的加密货币市场 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>INTERNATIONAL JOURNAL OF EMERGING MARKETS</h2>
+    <p>新兴经济体的加密货币市场 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.03.01</div>
+      <a class="source" href="https://www.emerald.com/ijoem/calls-for-submissions/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-03-01" data-id="67_cdi_meaning_purpose_work">
+    <a class="poster-link" href="renders/67_cdi_meaning_purpose_work.png" target="_blank"><img loading="lazy" src="renders/67_cdi_meaning_purpose_work.png" alt="工作中的意义、意义感与目的 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>CAREER DEVELOPMENT INTERNATIONAL</h2>
+    <p>工作中的意义、意义感与目的 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.03.01</div>
+      <a class="source" href="https://www.emerald.com/cdi/calls-for-submissions/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-03-15" data-id="68_ijlm_tech_regenerative_supply_chains">
+    <a class="poster-link" href="renders/68_ijlm_tech_regenerative_supply_chains.png" target="_blank"><img loading="lazy" src="renders/68_ijlm_tech_regenerative_supply_chains.png" alt="技术创新与再生型供应链 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>INTERNATIONAL JOURNAL OF LOGISTICS MANAGEMENT</h2>
+    <p>技术创新与再生型供应链 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.03.15</div>
+      <a class="source" href="https://www.emerald.com/ijlm/calls-for-submissions/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="未注明" data-date="2027-03-31" data-id="44_aiaie_human_capability_special_issue">
+    <a class="poster-link" href="renders/44_aiaie_human_capability_special_issue.png" target="_blank"><img loading="lazy" src="renders/44_aiaie_human_capability_special_issue.png" alt="AI 时代的人类能力 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>未注明</span></div>
+    <h2>ARTIFICIAL INTELLIGENCE ADVANCES IN EDUCATION</h2>
+    <p>AI 时代的人类能力 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.03.31</div>
+      <a class="source" href="https://scs-journals.com/journals/aiaie/articles/human-capability-in-the-age-of-ai-agency-assessment-and-future-graduate-skills/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-03-31" data-id="59_ejm_complex_service_systems">
+    <a class="poster-link" href="renders/59_ejm_complex_service_systems.png" target="_blank"><img loading="lazy" src="renders/59_ejm_complex_service_systems.png" alt="复杂服务系统的影响力 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>EUROPEAN JOURNAL OF MARKETING</h2>
+    <p>复杂服务系统的影响力 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.03.31</div>
+      <a class="source" href="https://www.ama.org/listings/2026/07/10/complex-service-systems/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-03-31" data-id="69_corporate_governance_cybersecurity">
+    <a class="poster-link" href="renders/69_corporate_governance_cybersecurity.png" target="_blank"><img loading="lazy" src="renders/69_corporate_governance_cybersecurity.png" alt="数字时代的网络安全治理 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>CORPORATE GOVERNANCE</h2>
+    <p>数字时代的网络安全治理 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.03.31</div>
+      <a class="source" href="https://www.emerald.com/cg/calls-for-submissions/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-03-31" data-id="70_jmd_genai_managerial_capabilities">
+    <a class="poster-link" href="renders/70_jmd_genai_managerial_capabilities.png" target="_blank"><img loading="lazy" src="renders/70_jmd_genai_managerial_capabilities.png" alt="生成式 AI 重塑管理能力 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNAL OF MANAGEMENT DEVELOPMENT</h2>
+    <p>生成式 AI 重塑管理能力 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.03.31</div>
+      <a class="source" href="https://www.emerald.com/jmd/calls-for-submissions/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-04-01" data-id="60_opr_disruptive_careers">
+    <a class="poster-link" href="renders/60_opr_disruptive_careers.png" target="_blank"><img loading="lazy" src="renders/60_opr_disruptive_careers.png" alt="剧变时代的职业生涯重构 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>ORGANIZATIONAL PSYCHOLOGY REVIEW</h2>
+    <p>剧变时代的职业生涯重构 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿窗口 2027.04.01</div>
+      <a class="source" href="https://journals.sagepub.com/page/opr/call-for-papers" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-04-05" data-id="61_jppm_wiser_consumption">
+    <a class="poster-link" href="renders/61_jppm_wiser_consumption.png" target="_blank"><img loading="lazy" src="renders/61_jppm_wiser_consumption.png" alt="更明智的消费与创新 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNAL OF PUBLIC POLICY &amp; MARKETING</h2>
+    <p>更明智的消费与创新 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.04.05</div>
+      <a class="source" href="https://www.ama.org/listings/2026/07/30/wiser-consumption-innovation/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-05-01" data-id="93_ijds_mickey_minnie_100">
+    <a class="poster-link" href="renders/93_ijds_mickey_minnie_100.png" target="_blank"><img loading="lazy" src="renders/93_ijds_mickey_minnie_100.png" alt="Mickey 与 Minnie 百年 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>INTERNATIONAL JOURNAL OF DISNEY STUDIES</h2>
+    <p>Mickey 与 Minnie 百年 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">全文截止 2027.05.01</div>
+      <a class="source" href="https://www.intellectbooks.com/ijds#call-for-papers" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-06-01" data-id="62_jom_underexplored_social_contexts">
+    <a class="poster-link" href="renders/62_jom_underexplored_social_contexts.png" target="_blank"><img loading="lazy" src="renders/62_jom_underexplored_social_contexts.png" alt="用运营管理回应被忽视的 社会情境 · 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNAL OF OPERATIONS MANAGEMENT</h2>
+    <p>用运营管理回应被忽视的 社会情境 · 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.06.01</div>
+      <a class="source" href="https://sites.google.com/view/journalofoperationsmanagement/special-issues" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-07-01" data-id="63_jacr_consumer_dynamics_sports">
+    <a class="poster-link" href="renders/63_jacr_consumer_dynamics_sports.png" target="_blank"><img loading="lazy" src="renders/63_jacr_consumer_dynamics_sports.png" alt="不只是比赛：体育消费动力 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNAL OF THE ASSOCIATION FOR CONSUMER RESEARCH</h2>
+    <p>不只是比赛：体育消费动力 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.07.01</div>
+      <a class="source" href="https://www.ama.org/listings/2026/06/04/more-than-just-a-game/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2027-10-15" data-id="64_jar_ai_advertising_creativity">
+    <a class="poster-link" href="renders/64_jar_ai_advertising_creativity.png" target="_blank"><img loading="lazy" src="renders/64_jar_ai_advertising_creativity.png" alt="AI 与广告创意的未来 特刊征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNAL OF ADVERTISING RESEARCH</h2>
+    <p>AI 与广告创意的未来 特刊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2027.10.15</div>
+      <a class="source" href="https://www.ama.org/listings/2026/07/16/ai-and-the-future-of-advertising-creativity/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博后机会" data-country="沙特阿拉伯" data-date="9999-12-31" data-id="21_kfupm_nonprofit_postdoc">
+    <a class="poster-link" href="renders/21_kfupm_nonprofit_postdoc.png" target="_blank"><img loading="lazy" src="renders/21_kfupm_nonprofit_postdoc.png" alt="非营利与社会发展 研究中心博后"></a>
+    <div class="meta"><span>博后机会</span><span>沙特阿拉伯</span></div>
+    <h2>KFUPM</h2>
+    <p>非营利与社会发展 研究中心博后</p>
+    <div class="card-footer">
+      <div class="deadline">日期未注明</div>
+      <a class="source" href="https://ri.kfupm.edu.sa/join-us/postdoctoral-research-fellowship-program/vacancies" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="9999-12-31" data-id="23_nku_3d_vfx_faculty">
+    <a class="poster-link" href="renders/23_nku_3d_vfx_faculty.png" target="_blank"><img loading="lazy" src="renders/23_nku_3d_vfx_faculty.png" alt="3D 数字设计与 VFX 助理教授"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>NORTHERN KENTUCKY UNIVERSITY</h2>
+    <p>3D 数字设计与 VFX 助理教授</p>
+    <div class="card-footer">
+      <div class="deadline">日期未注明</div>
+      <a class="source" href="https://wd108.myworkday.com/nku/d/inst/1%249925/9925%24593.htmld" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="9999-12-31" data-id="24_samford_communication_pr_two_roles">
+    <a class="poster-link" href="renders/24_samford_communication_pr_two_roles.png" target="_blank"><img loading="lazy" src="renders/24_samford_communication_pr_two_roles.png" alt="传播与公共关系 助理教授两岗"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>SAMFORD UNIVERSITY</h2>
+    <p>传播与公共关系 助理教授两岗</p>
+    <div class="card-footer">
+      <div class="deadline">日期未注明</div>
+      <a class="source" href="https://www.samford.edu/employee/faculty-employment-opportunities/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="9999-12-31" data-id="25_florida_ai_advertising_faculty">
+    <a class="poster-link" href="renders/25_florida_ai_advertising_faculty.png" target="_blank"><img loading="lazy" src="renders/25_florida_ai_advertising_faculty.png" alt="AI 与广告 助理教授"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>UNIVERSITY OF FLORIDA</h2>
+    <p>AI 与广告 助理教授</p>
+    <div class="card-footer">
+      <div class="deadline">日期未注明</div>
+      <a class="source" href="https://lnkd.in/eAm9Yqzs" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="9999-12-31" data-id="26_tampa_communication_faculty">
+    <a class="poster-link" href="renders/26_tampa_communication_faculty.png" target="_blank"><img loading="lazy" src="renders/26_tampa_communication_faculty.png" alt="传播学助理教授"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>UNIVERSITY OF TAMPA</h2>
+    <p>传播学助理教授</p>
+    <div class="card-footer">
+      <div class="deadline">日期未注明</div>
+      <a class="source" href="https://lnkd.in/eS4KQn_C" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="9999-12-31" data-id="27_journalism_media_meme_special_issue">
+    <a class="poster-link" href="renders/27_journalism_media_meme_special_issue.png" target="_blank"><img loading="lazy" src="renders/27_journalism_media_meme_special_issue.png" alt="数字环境中的 迷因传播"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>JOURNALISM AND MEDIA</h2>
+    <p>数字环境中的 迷因传播</p>
+    <div class="card-footer">
+      <div class="deadline">日期未注明</div>
+      <a class="source" href="https://www.mdpi.com/journal/journalmedia/special_issues/1J7Q5772S9" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="全奖硕士" data-country="中国台湾" data-date="9999-12-31" data-id="45_nthu_international_masters_scholarship">
+    <a class="poster-link" href="renders/45_nthu_international_masters_scholarship.png" target="_blank"><img loading="lazy" src="renders/45_nthu_international_masters_scholarship.png" alt="国际学生硕士 奖学金"></a>
+    <div class="meta"><span>全奖硕士</span><span>中国台湾</span></div>
+    <h2>NATIONAL TSING HUA UNIVERSITY</h2>
+    <p>国际学生硕士 奖学金</p>
+    <div class="card-footer">
+      <div class="deadline">日期未注明</div>
+      <a class="source" href="https://oga.site.nthu.edu.tw/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="意大利" data-date="9999-12-31" data-id="47_jrc_nature_data_scientist">
+    <a class="poster-link" href="renders/47_jrc_nature_data_scientist.png" target="_blank"><img loading="lazy" src="renders/47_jrc_nature_data_scientist.png" alt="自然保护与观测 招聘数据科学家"></a>
+    <div class="meta"><span>海外教职</span><span>意大利</span></div>
+    <h2>EUROPEAN COMMISSION JRC</h2>
+    <p>自然保护与观测 招聘数据科学家</p>
+    <div class="card-footer">
+      <div class="deadline">日期未注明</div>
+      <a class="source" href="https://recruitment.jrc.ec.europa.eu/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="9999-12-31" data-id="48_nyu_ai_social_good_researcher">
+    <a class="poster-link" href="renders/48_nyu_ai_social_good_researcher.png" target="_blank"><img loading="lazy" src="renders/48_nyu_ai_social_good_researcher.png" alt="AI 与机器学习社会公益 招聘研究员"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>NEW YORK UNIVERSITY</h2>
+    <p>AI 与机器学习社会公益 招聘研究员</p>
+    <div class="card-footer">
+      <div class="deadline">日期未注明</div>
+      <a class="source" href="https://mlforgood.org/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article></div><div class="empty" id="empty">没有匹配的海报。</div></main>
+  <script>
+    const cards=[...document.querySelectorAll('.card')],grid=document.querySelector('#grid'),type=document.querySelector('#type'),country=document.querySelector('#country'),sort=document.querySelector('#sort'),shown=document.querySelector('#shown'),empty=document.querySelector('#empty');
+    function update(){const direction=sort.value==='desc'?-1:1;cards.sort((a,b)=>direction*(a.dataset.date.localeCompare(b.dataset.date)||a.dataset.id.localeCompare(b.dataset.id)));let n=0;for(const card of cards){grid.append(card);const ok=(!type.value||card.dataset.type===type.value)&&(!country.value||card.dataset.country===country.value);card.hidden=!ok;if(ok)n++}shown.textContent=n;empty.style.display=n?'none':'block'}
+    type.addEventListener('change',update);country.addEventListener('change',update);sort.addEventListener('change',update);update();
+  </script>
+</body></html>
