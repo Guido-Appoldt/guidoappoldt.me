@@ -12,19 +12,19 @@
     .top{display:flex;align-items:end;justify-content:space-between;gap:24px}.count{font-size:14px}.controls{display:grid;grid-template-columns:repeat(3,minmax(160px,220px));gap:10px;margin-top:16px}
     select{height:44px;border:2px solid var(--ink);background:white;padding:0 12px;font:inherit;font-weight:650;border-radius:0}main{padding:28px clamp(18px,4vw,54px) 60px}
     .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:24px}.card{min-width:0}.poster-link{display:block;background:#bba7ff;border:2px solid var(--ink);box-shadow:8px 8px 0 #d6cdf5;transition:.15s transform}.poster-link:hover{transform:translate(-3px,-3px)}img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover}
-    .meta{display:flex;justify-content:space-between;gap:10px;margin-top:16px;color:var(--violet);font-size:13px;font-weight:800}.card h2{font-family:"Arial Black",sans-serif;font-size:19px;line-height:1.05;margin:8px 0 6px;overflow-wrap:anywhere}.card p{font-size:15px;line-height:1.35;margin:0 0 8px}.card-footer{display:flex;align-items:baseline;justify-content:space-between;gap:8px;flex-wrap:wrap}.deadline{font-size:12px;font-weight:750;color:#686371}.source{color:var(--ink);font-size:12px;font-weight:850;text-decoration-color:var(--violet);text-decoration-thickness:2px;text-underline-offset:3px;white-space:nowrap}.source:hover,.source:focus-visible{color:var(--violet)}.empty{padding:60px 0;font-size:20px;font-weight:800}.load-more-wrap{display:flex;justify-content:center;margin-top:48px}.load-more{display:flex;align-items:center;justify-content:space-between;gap:18px;width:min(100%,420px);min-height:52px;border:2px solid var(--ink);border-radius:0;background:white;color:var(--ink);padding:0 18px;font:inherit;font-weight:850;cursor:pointer;box-shadow:7px 7px 0 #d6cdf5;transition:.15s transform,.15s box-shadow,.15s background-color,.15s color}.load-more small{color:#686371;font-size:12px;font-weight:750}.load-more:hover{transform:translate(-3px,-3px);background:var(--violet);color:white;box-shadow:10px 10px 0 #d6cdf5}.load-more:hover small{color:white}.load-more:active{transform:translate(2px,2px);box-shadow:3px 3px 0 #d6cdf5}.load-more:focus-visible{outline:3px solid var(--violet);outline-offset:4px}
+    .meta{display:flex;justify-content:space-between;gap:10px;margin-top:16px;color:var(--violet);font-size:13px;font-weight:800}.card h2{font-family:"Arial Black",sans-serif;font-size:19px;line-height:1.05;margin:8px 0 6px;overflow-wrap:anywhere}.card p{font-size:15px;line-height:1.35;margin:0 0 8px}.card-footer{display:flex;align-items:baseline;justify-content:space-between;gap:8px;flex-wrap:wrap}.deadline{font-size:12px;font-weight:750;color:#686371}.source{color:var(--ink);font-size:12px;font-weight:850;text-decoration-color:var(--violet);text-decoration-thickness:2px;text-underline-offset:3px;white-space:nowrap}.source:hover,.source:focus-visible{color:var(--violet)}.empty{padding:60px 0;font-size:20px;font-weight:800}.past-load-wrap{display:flex;justify-content:center;margin:0 0 36px}.load-more-wrap{display:flex;justify-content:center;margin-top:48px}.load-more{display:flex;align-items:center;justify-content:space-between;gap:18px;width:min(100%,420px);min-height:52px;border:2px solid var(--ink);border-radius:0;background:white;color:var(--ink);padding:0 18px;font:inherit;font-weight:850;cursor:pointer;box-shadow:7px 7px 0 #d6cdf5;transition:.15s transform,.15s box-shadow,.15s background-color,.15s color}.load-more small{color:#686371;font-size:12px;font-weight:750}.load-more:hover{transform:translate(-3px,-3px);background:var(--violet);color:white;box-shadow:10px 10px 0 #d6cdf5}.load-more:hover small{color:white}.load-more:active{transform:translate(2px,2px);box-shadow:3px 3px 0 #d6cdf5}.load-more:focus-visible{outline:3px solid var(--violet);outline-offset:4px}
     @media(max-width:720px){.top{align-items:start;flex-direction:column;gap:6px}.controls{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 12px}.card h2{font-size:15px}.card p{font-size:13px}.meta{font-size:11px}.deadline,.source{font-size:11px}.poster-link{box-shadow:5px 5px 0 #d6cdf5}}
   </style>
 </head>
 <body>
-  <header><div class="top"><h1 style="margin:0">社科机会周报海报画廊（尽量每周更新一次）</h1><div class="count" aria-live="polite" aria-atomic="true"><b id="shown">0</b> / <span id="matched">183</span> 张已显示</div></div>
+  <header><div class="top"><h1 style="margin:0">社科机会周报海报画廊（尽量每周更新一次）</h1><div class="count" aria-live="polite" aria-atomic="true"><b id="shown">0</b> / <span id="matched">200</span> 张已显示</div></div>
     <div class="controls">
       <select id="type"><option value="">全部类型</option><option>博后机会</option><option>博士机会</option><option>访学机会</option><option>海外教职</option><option>全奖博士</option><option>全奖硕士</option><option>特刊征稿</option><option>文集征稿</option><option>学术工作坊</option><option>学术会议</option><option>学术活动</option><option>学术课程</option></select>
-      <select id="country"><option value="">全部国家 / 地区</option><option>阿联酋</option><option>爱尔兰</option><option>奥地利</option><option>澳大利亚</option><option>比利时</option><option>波兰</option><option>丹麦</option><option>德国</option><option>法国</option><option>国际</option><option>韩国</option><option>荷兰</option><option>加拿大</option><option>美国</option><option>南非</option><option>挪威</option><option>葡萄牙</option><option>日本</option><option>瑞典</option><option>瑞士</option><option>沙特阿拉伯</option><option>未注明</option><option>西班牙</option><option>线上</option><option>意大利</option><option>英国</option><option>越南</option><option>中国</option><option>中国台湾</option><option>中国香港</option></select>
+      <select id="country"><option value="">全部国家 / 地区</option><option>阿联酋</option><option>爱尔兰</option><option>奥地利</option><option>澳大利亚</option><option>保加利亚</option><option>比利时</option><option>波兰</option><option>丹麦</option><option>德国</option><option>法国</option><option>国际</option><option>韩国</option><option>荷兰</option><option>加拿大</option><option>美国</option><option>南非</option><option>挪威</option><option>葡萄牙</option><option>日本</option><option>瑞典</option><option>瑞士</option><option>沙特阿拉伯</option><option>斯洛文尼亚</option><option>未注明</option><option>西班牙</option><option>线上</option><option>意大利</option><option>英国</option><option>越南</option><option>中国</option><option>中国台湾</option><option>中国香港</option></select>
       <select id="sort"><option value="asc">DDL：由早至晚</option><option value="desc">DDL：由晚至早</option></select>
     </div>
   </header>
-  <main><div class="grid" id="grid"><article class="card" data-type="博后机会" data-country="奥地利" data-date="2026-09-11" data-id="28_vienna_medem_postdoc">
+  <main><div class="past-load-wrap" id="past-load-wrap"><button class="load-more" id="past-load" type="button" aria-controls="grid" aria-expanded="false"><span id="past-load-label">加载过往机会</span><small id="past-load-status"></small></button></div><div class="grid" id="grid"><article class="card" data-type="博后机会" data-country="奥地利" data-date="2026-09-11" data-id="28_vienna_medem_postdoc">
     <a class="poster-link" href="renders/28_vienna_medem_postdoc.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/28_vienna_medem_postdoc.png" alt="MEDem 选举民主监测 研究博后"></a>
     <div class="meta"><span>博后机会</span><span>奥地利</span></div>
     <h2>UNIVERSITY OF VIENNA</h2>
@@ -114,6 +114,16 @@
       <a class="source" href="https://lnkd.in/djgCdVpM" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
+<article class="card" data-type="学术会议" data-country="英国" data-date="2026-09-20" data-id="184_unu_lse_fiscal_policy_workshop">
+    <a class="poster-link" href="renders/184_unu_lse_fiscal_policy_workshop.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/184_unu_lse_fiscal_policy_workshop.png" alt="全球南方可持续发展 财政政策工作坊征稿"></a>
+    <div class="meta"><span>学术会议</span><span>英国</span></div>
+    <h2>UNU-WIDER × LSE FISCAL POLICY</h2>
+    <p>全球南方可持续发展 财政政策工作坊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.09.20</div>
+      <a class="source" href="https://www.wider.unu.edu/opportunity/fiscal-policy-sustainable-development-global-south" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
 <article class="card" data-type="博后机会" data-country="奥地利" data-date="2026-09-20" data-id="46_vienna_media_technology_postdoc">
     <a class="poster-link" href="renders/46_vienna_media_technology_postdoc.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/46_vienna_media_technology_postdoc.png" alt="媒体与技术哲学 研究博后"></a>
     <div class="meta"><span>博后机会</span><span>奥地利</span></div>
@@ -122,6 +132,26 @@
     <div class="card-footer">
       <div class="deadline">申请截止 2026.09.20</div>
       <a class="source" href="https://jobs.univie.ac.at/job/University-Assistant-postdoctoral/1434502433/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="比利时" data-date="2026-09-21" data-id="185_ucm_europe_digital_crossroads">
+    <a class="poster-link" href="renders/185_ucm_europe_digital_crossroads.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/185_ucm_europe_digital_crossroads.png" alt="数字十字路口的欧洲 学术课程开放报名"></a>
+    <div class="meta"><span>学术会议</span><span>比利时</span></div>
+    <h2>EUROPE AT THE DIGITAL CROSSROADS</h2>
+    <p>数字十字路口的欧洲 学术课程开放报名</p>
+    <div class="card-footer">
+      <div class="deadline">报名截止 2026.09.21</div>
+      <a class="source" href="https://forms.gle/GfQvHBfZ4GZe5M7H9" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="线上" data-date="2026-09-21" data-id="200_stanford_hai_ai_slow_down">
+    <a class="poster-link" href="renders/200_stanford_hai_ai_slow_down.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/200_stanford_hai_ai_slow_down.png" alt="AI是否应该放慢脚步？ 线上学术对谈"></a>
+    <div class="meta"><span>学术会议</span><span>线上</span></div>
+    <h2>STANFORD HAI PROMPT &amp; RESPONSE</h2>
+    <p>AI是否应该放慢脚步？ 线上学术对谈</p>
+    <div class="card-footer">
+      <div class="deadline">直播日期 2026.09.21</div>
+      <a class="source" href="https://hai.stanford.edu/events/rob-reich-diyi-yang-amy-zegart-prompt-response-should-ai-slow-down" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
 <article class="card" data-type="学术会议" data-country="瑞士" data-date="2026-09-22" data-id="183_uzh_ai_lecture_series">
@@ -174,6 +204,16 @@
       <a class="source" href="https://www.daad.de/en/the-daad/what-we-do/funding-programmes/daad-heilbronn-ai-program/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
+<article class="card" data-type="学术会议" data-country="保加利亚" data-date="2026-09-28" data-id="186_ecrea_local_media_panel">
+    <a class="poster-link" href="renders/186_ecrea_local_media_panel.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/186_ecrea_local_media_panel.png" alt="地方媒体、信任与公共知识 会议专题组稿"></a>
+    <div class="meta"><span>学术会议</span><span>保加利亚</span></div>
+    <h2>LOCAL MEDIA ECREA 2027</h2>
+    <p>地方媒体、信任与公共知识 会议专题组稿</p>
+    <div class="card-footer">
+      <div class="deadline">组稿截止 2026.09.28</div>
+      <a class="source" href="https://departments.unwe.bg/media/bg/pages/77524/ecrea-journalism-studies-conference-2027.html" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
 <article class="card" data-type="全奖博士" data-country="挪威" data-date="2026-09-29" data-id="03_bergen_ai_ethics_phd">
     <a class="poster-link" href="renders/03_bergen_ai_ethics_phd.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/03_bergen_ai_ethics_phd.png" alt="人机协作中的 AI 伦理 博士机会"></a>
     <div class="meta"><span>全奖博士</span><span>挪威</span></div>
@@ -222,6 +262,26 @@
     <div class="card-footer">
       <div class="deadline">方案截止 2026.09.30</div>
       <a class="source" href="https://academic.oup.com/ser/pages/call-for-special-issue-proposal" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="斯洛文尼亚" data-date="2026-09-30" data-id="187_iaspm_popular_music_conference">
+    <a class="poster-link" href="renders/187_iaspm_popular_music_conference.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/187_iaspm_popular_music_conference.png" alt="中东欧流行音乐研究 国际会议征稿"></a>
+    <div class="meta"><span>学术会议</span><span>斯洛文尼亚</span></div>
+    <h2>POWER, PLATFORMS &amp; PERIPHERIES</h2>
+    <p>中东欧流行音乐研究 国际会议征稿</p>
+    <div class="card-footer">
+      <div class="deadline">提案截止 2026.09.30</div>
+      <a class="source" href="https://www.fdv.uni-lj.si/en/study/departments-and-chairs/department-of-cultural-studies/chair-of-cultural-studies/news/cfp-power-platforms-and-peripheries-popular-music-in-central-eastern-and-southeastern-europe" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="英国" data-date="2026-09-30" data-id="188_ica_disability_panels">
+    <a class="poster-link" href="renders/188_ica_disability_panels.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/188_ica_disability_panels.png" alt="残障与传播专题组稿 ICA国际会议"></a>
+    <div class="meta"><span>学术会议</span><span>英国</span></div>
+    <h2>ICA 2027 DISABILITY PANELS</h2>
+    <p>残障与传播专题组稿 ICA国际会议</p>
+    <div class="card-footer">
+      <div class="deadline">组稿截止 2026.09.30</div>
+      <a class="source" href="https://www.icahdq.org/mpage/JS_CFP" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
 <article class="card" data-type="博士机会" data-country="荷兰" data-date="2026-09-30" data-id="32_leiden_crisis_decision_phd">
@@ -434,6 +494,16 @@
       <a class="source" href="https://community.aejmc.org/internationalcommunicationdivision/home/home-call-for-editor" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
+<article class="card" data-type="海外教职" data-country="美国" data-date="2026-10-05" data-id="189_emory_media_industry_faculty">
+    <a class="poster-link" href="renders/189_emory_media_industry_faculty.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/189_emory_media_industry_faculty.png" alt="媒体产业研究 助理教授招聘"></a>
+    <div class="meta"><span>海外教职</span><span>美国</span></div>
+    <h2>EMORY UNIVERSITY FILM &amp; MEDIA</h2>
+    <p>媒体产业研究 助理教授招聘</p>
+    <div class="card-footer">
+      <div class="deadline">开始审理 2026.10.05</div>
+      <a class="source" href="https://apply.interfolio.com/191903" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
 <article class="card" data-type="博后机会" data-country="挪威" data-date="2026-10-05" data-id="35_ntnu_digital_health_postdoc">
     <a class="poster-link" href="renders/35_ntnu_digital_health_postdoc.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/35_ntnu_digital_health_postdoc.png" alt="机器学习与老年数字健康 研究博后"></a>
     <div class="meta"><span>博后机会</span><span>挪威</span></div>
@@ -494,6 +564,16 @@
       <a class="source" href="https://viewjournal.eu/announcements" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
+<article class="card" data-type="博士机会" data-country="爱尔兰" data-date="2026-10-07" data-id="190_ucd_erc_brain_phds">
+    <a class="poster-link" href="renders/190_ucd_erc_brain_phds.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/190_ucd_erc_brain_phds.png" alt="全球脑科学政策比较 两个全奖博士方向"></a>
+    <div class="meta"><span>博士机会</span><span>爱尔兰</span></div>
+    <h2>UNIVERSITY COLLEGE DUBLIN × ERC</h2>
+    <p>全球脑科学政策比较 两个全奖博士方向</p>
+    <div class="card-footer">
+      <div class="deadline">最早截止 2026.10.07</div>
+      <a class="source" href="https://www.ucd.ie/sociology/study/graduateprogrammes/phdresearcherposition-opportunity1" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
 <article class="card" data-type="博士机会" data-country="挪威" data-date="2026-10-09" data-id="171_uio_fair_ai_phd">
     <a class="poster-link" href="renders/171_uio_fair_ai_phd.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/171_uio_fair_ai_phd.png" alt="人工智能公平性方向 岗位制博士"></a>
     <div class="meta"><span>博士机会</span><span>挪威</span></div>
@@ -502,6 +582,16 @@
     <div class="card-footer">
       <div class="deadline">申请截止 2026.10.09</div>
       <a class="source" href="https://www.jobbnorge.no/en/available-jobs/job/307994/phd-research-fellow-in-fairness-in-artificial-intelligence" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博士机会" data-country="德国" data-date="2026-10-09" data-id="191_iwm_agentic_science_phd">
+    <a class="poster-link" href="renders/191_iwm_agentic_science_phd.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/191_iwm_agentic_science_phd.png" alt="以人为本的智能体科学 岗位制博士"></a>
+    <div class="meta"><span>博士机会</span><span>德国</span></div>
+    <h2>LEIBNIZ IWM AGENTIC SCIENCE</h2>
+    <p>以人为本的智能体科学 岗位制博士</p>
+    <div class="card-footer">
+      <div class="deadline">优先审理 2026.10.09</div>
+      <a class="source" href="https://www.psychjob.eu/de/job/phd-position-m-f-d-1013-2026-34396" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
 <article class="card" data-type="学术会议" data-country="线上" data-date="2026-10-09" data-id="81_no_nations_punk_conference">
@@ -684,6 +774,16 @@
       <a class="source" href="https://editorresources.taylorandfrancis.com/editor_recruitment/editor-in-chief-needed-for-journal-of-international-food-agribusiness-marketing" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-10-15" data-id="192_elgar_cancel_culture_volume">
+    <a class="poster-link" href="renders/192_elgar_cancel_culture_volume.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/192_elgar_cancel_culture_volume.png" alt="取消文化、可见性与争议 论文集章节征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>EDWARD ELGAR CANCEL CULTURE</h2>
+    <p>取消文化、可见性与争议 论文集章节征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.10.15</div>
+      <a class="source" href="https://lists.aoir.org/archives/list/air-l@lists.aoir.org/thread/JYB34RX22ZKCZIEK4D22V7RNIR7SLVOP" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
 <article class="card" data-type="特刊征稿" data-country="未注明" data-date="2026-10-15" data-id="38_transformative_justice_blog_call">
     <a class="poster-link" href="renders/38_transformative_justice_blog_call.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/38_transformative_justice_blog_call.png" alt="“实践中的转型正义” 博客征稿"></a>
     <div class="meta"><span>特刊征稿</span><span>未注明</span></div>
@@ -774,6 +874,16 @@
       <a class="source" href="https://www.liverpool.ac.uk/heritage-institute/virtual-fellowships/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
+<article class="card" data-type="学术会议" data-country="比利时" data-date="2026-10-18" data-id="193_ius_constitutionalism_workshop">
+    <a class="poster-link" href="renders/193_ius_constitutionalism_workshop.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/193_ius_constitutionalism_workshop.png" alt="国际法中的宪政主义消亡？ 工作坊征稿"></a>
+    <div class="meta"><span>学术会议</span><span>比利时</span></div>
+    <h2>IUS COMMUNE LEUVEN 2026</h2>
+    <p>国际法中的宪政主义消亡？ 工作坊征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.10.18</div>
+      <a class="source" href="https://iuscommune.eu/activiteiten.aspx?Jaar=2026&amp;language=Nederlands" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
 <article class="card" data-type="海外教职" data-country="比利时" data-date="2026-10-19" data-id="126_ku_leuven_cultural_studies_professor">
     <a class="poster-link" href="renders/126_ku_leuven_cultural_studies_professor.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/126_ku_leuven_cultural_studies_professor.png" alt="文化研究长聘轨教授 海外教职招聘"></a>
     <div class="meta"><span>海外教职</span><span>比利时</span></div>
@@ -862,6 +972,16 @@
     <div class="card-footer">
       <div class="deadline">提案截止 2026.10.27</div>
       <a class="source" href="https://www.lawandsociety.org/2026/09/10/call-for-papers-2027-global-meeting-on-law-and-society/" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="学术会议" data-country="奥地利" data-date="2026-10-28" data-id="194_oeaw_public_admin_algorithms">
+    <a class="poster-link" href="renders/194_oeaw_public_admin_algorithms.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/194_oeaw_public_admin_algorithms.png" alt="公共行政中的算法 民主影响工作坊报名"></a>
+    <div class="meta"><span>学术会议</span><span>奥地利</span></div>
+    <h2>AUSTRIAN ACADEMY OF SCIENCES</h2>
+    <p>公共行政中的算法 民主影响工作坊报名</p>
+    <div class="card-footer">
+      <div class="deadline">报名截止 2026.10.28</div>
+      <a class="source" href="https://www.oeaw.ac.at/fileadmin/kommissionen/demokDigiGe/pdf/DEMGES_Workshop_Algorithms_in_Public_Administration.pdf" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
 <article class="card" data-type="学术会议" data-country="英国" data-date="2026-10-29" data-id="129_digital_good_network_conference">
@@ -1174,6 +1294,16 @@
       <a class="source" href="https://www.castledown.com.au/journals/tltl/announcement/view/15" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
+<article class="card" data-type="学术会议" data-country="线上" data-date="2026-11-30" data-id="195_ucl_2p_press_start">
+    <a class="poster-link" href="renders/195_ucl_2p_press_start.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/195_ucl_2p_press_start.png" alt="共享实体空间中的游戏体验 线上会议征稿"></a>
+    <div class="meta"><span>学术会议</span><span>线上</span></div>
+    <h2>UCL GAME STUDIES 2P PRESS START</h2>
+    <p>共享实体空间中的游戏体验 线上会议征稿</p>
+    <div class="card-footer">
+      <div class="deadline">摘要截止 2026.11.30</div>
+      <a class="source" href="https://docs.google.com/document/d/1nOPFS-q-bAOdynqgVs9w1cEC96iCFyr9" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
 <article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-11-30" data-id="53_ejm_ai_luxury">
     <a class="poster-link" href="renders/53_ejm_ai_luxury.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/53_ejm_ai_luxury.png" alt="AI 时代的奢侈消费 特刊征稿"></a>
     <div class="meta"><span>特刊征稿</span><span>国际</span></div>
@@ -1304,6 +1434,16 @@
       <a class="source" href="http://commlist.org/archive/all/2026-all/msg01153.html" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
+<article class="card" data-type="学术会议" data-country="比利时" data-date="2026-12-07" data-id="196_dh_benelux_2027">
+    <a class="poster-link" href="renders/196_dh_benelux_2027.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/196_dh_benelux_2027.png" alt="数字人文在哪里？ 国际会议征稿"></a>
+    <div class="meta"><span>学术会议</span><span>比利时</span></div>
+    <h2>DH BENELUX 2027 BRUSSELS</h2>
+    <p>数字人文在哪里？ 国际会议征稿</p>
+    <div class="card-footer">
+      <div class="deadline">投稿截止 2026.12.07</div>
+      <a class="source" href="https://2027.dhbenelux.org/call-for-papers" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
 <article class="card" data-type="博士机会" data-country="英国" data-date="2026-12-08" data-id="104_cambridge_human_inspired_ai_phd">
     <a class="poster-link" href="renders/104_cambridge_human_inspired_ai_phd.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/104_cambridge_human_inspired_ai_phd.png" alt="人本人工智能 博士机会｜开放申请"></a>
     <div class="meta"><span>博士机会</span><span>英国</span></div>
@@ -1312,6 +1452,16 @@
     <div class="card-footer">
       <div class="deadline">官方申请截止 2026.12.08</div>
       <a class="source" href="https://www.postgraduate.study.cam.ac.uk/courses/directory/iethpdhii" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="博后机会" data-country="美国" data-date="2026-12-10" data-id="197_chicago_booth_behavioral_postdoc">
+    <a class="poster-link" href="renders/197_chicago_booth_behavioral_postdoc.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/197_chicago_booth_behavioral_postdoc.png" alt="行为科学研究与教学 博后招聘"></a>
+    <div class="meta"><span>博后机会</span><span>美国</span></div>
+    <h2>CHICAGO BOOTH DECISION RESEARCH</h2>
+    <p>行为科学研究与教学 博后招聘</p>
+    <div class="card-footer">
+      <div class="deadline">推荐信截止 2026.12.10</div>
+      <a class="source" href="https://uchicago.wd5.myworkdayjobs.com/en-US/External/job/Principal-Researcher_JR35085" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
 <article class="card" data-type="学术会议" data-country="葡萄牙" data-date="2026-12-10" data-id="91_heritages_2027">
@@ -1362,6 +1512,16 @@
     <div class="card-footer">
       <div class="deadline">申请截止 2026.12.11</div>
       <a class="source" href="https://career.mpifg.de/jobposting/2b5f30bad8259b8ebf2bb71288d5a3cd985af7550" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-12-15" data-id="198_platforms_society_conflict_issue">
+    <a class="poster-link" href="renders/198_platforms_society_conflict_issue.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/198_platforms_society_conflict_issue.png" alt="敌对政治环境中的 平台冲突调解专题征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>国际</span></div>
+    <h2>PLATFORMS &amp; SOCIETY</h2>
+    <p>敌对政治环境中的 平台冲突调解专题征稿</p>
+    <div class="card-footer">
+      <div class="deadline">建议截止 2026.12.15</div>
+      <a class="source" href="https://www.ecrea.eu/page-18206/13700747" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
 <article class="card" data-type="特刊征稿" data-country="国际" data-date="2026-12-30" data-id="65_jcb_emotion_by_design">
@@ -1452,6 +1612,16 @@
     <div class="card-footer">
       <div class="deadline">全文截止 2027.01.15</div>
       <a class="source" href="http://commlist.org/archive/all/2026-all/msg01168.html" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
+    </div>
+  </article>
+<article class="card" data-type="特刊征稿" data-country="西班牙" data-date="2027-01-30" data-id="199_comparative_cinema_adaptations">
+    <a class="poster-link" href="renders/199_comparative_cinema_adaptations.png" target="_blank"><img loading="lazy" decoding="async" data-src="renders/199_comparative_cinema_adaptations.png" alt="视听改编研究 期刊专题征稿"></a>
+    <div class="meta"><span>特刊征稿</span><span>西班牙</span></div>
+    <h2>COMPARATIVE CINEMA</h2>
+    <p>视听改编研究 期刊专题征稿</p>
+    <div class="card-footer">
+      <div class="deadline">全文截止 2027.01.30</div>
+      <a class="source" href="https://raco.cat/index.php/Comparativecinema" target="_blank" rel="noopener noreferrer">查看原始链接 ↗</a>
     </div>
   </article>
 <article class="card" data-type="特刊征稿" data-country="德国" data-date="2027-01-31" data-id="102_gmj_comparison_method">
@@ -1856,11 +2026,34 @@
   </article></div><div class="empty" id="empty" hidden>没有匹配的海报。</div><div class="load-more-wrap" id="load-more-wrap"><button class="load-more" id="load-more" type="button" aria-controls="grid"><span>加载更多</span><small id="load-more-status"></small></button></div></main>
   <script>
     const PAGE_SIZE=24;
-    const cards=[...document.querySelectorAll('.card')],grid=document.querySelector('#grid'),type=document.querySelector('#type'),country=document.querySelector('#country'),sort=document.querySelector('#sort'),shown=document.querySelector('#shown'),matched=document.querySelector('#matched'),empty=document.querySelector('#empty'),loadMoreWrap=document.querySelector('#load-more-wrap'),loadMore=document.querySelector('#load-more'),loadMoreStatus=document.querySelector('#load-more-status');
-    let visibleLimit=PAGE_SIZE;
+    const cards=[...document.querySelectorAll('.card')],grid=document.querySelector('#grid'),type=document.querySelector('#type'),country=document.querySelector('#country'),sort=document.querySelector('#sort'),shown=document.querySelector('#shown'),matched=document.querySelector('#matched'),empty=document.querySelector('#empty'),pastLoadWrap=document.querySelector('#past-load-wrap'),pastLoad=document.querySelector('#past-load'),pastLoadLabel=document.querySelector('#past-load-label'),pastLoadStatus=document.querySelector('#past-load-status'),loadMoreWrap=document.querySelector('#load-more-wrap'),loadMore=document.querySelector('#load-more'),loadMoreStatus=document.querySelector('#load-more-status');
+    const openedOn=localDate(new Date());
+    let visibleLimit=PAGE_SIZE,pastVisibleLimit=0;
+    function localDate(date){const year=date.getFullYear(),month=String(date.getMonth()+1).padStart(2,'0'),day=String(date.getDate()).padStart(2,'0');return year+'-'+month+'-'+day}
     function loadImage(card,isFirst=false){const image=card.querySelector('img[data-src]');if(!image||image.hasAttribute('src'))return;if(isFirst)image.setAttribute('fetchpriority','high');image.src=image.dataset.src}
-    function update(reset=false){if(reset)visibleLimit=PAGE_SIZE;const direction=sort.value==='desc'?-1:1;cards.sort((a,b)=>direction*(a.dataset.date.localeCompare(b.dataset.date)||a.dataset.id.localeCompare(b.dataset.id)));for(const card of cards){grid.append(card);card.hidden=true}const matching=cards.filter(card=>(!type.value||card.dataset.type===type.value)&&(!country.value||card.dataset.country===country.value));const visible=matching.slice(0,visibleLimit);visible.forEach((card,index)=>{card.hidden=false;loadImage(card,index===0)});const remaining=matching.length-visible.length;shown.textContent=visible.length;matched.textContent=matching.length;empty.hidden=matching.length!==0;loadMoreWrap.hidden=remaining===0;loadMoreStatus.textContent=remaining?'下一批 '+Math.min(PAGE_SIZE,remaining)+' 张 · 剩余 '+remaining+' 张':'';loadMore.setAttribute('aria-label',remaining?'加载更多，下一批 '+Math.min(PAGE_SIZE,remaining)+' 张，还剩 '+remaining+' 张':'全部海报已显示')}
+    function matchesFilters(card){return(!type.value||card.dataset.type===type.value)&&(!country.value||card.dataset.country===country.value)}
+    function compareCards(direction){return(a,b)=>direction*(a.dataset.date.localeCompare(b.dataset.date)||a.dataset.id.localeCompare(b.dataset.id))}
+    function update(reset=false){
+      if(reset){visibleLimit=PAGE_SIZE;pastVisibleLimit=0}
+      const direction=sort.value==='desc'?-1:1,compare=compareCards(direction),ordered=[...cards].sort(compare);
+      for(const card of ordered){grid.append(card);card.hidden=true}
+      const matching=ordered.filter(matchesFilters),active=matching.filter(card=>card.dataset.date>=openedOn),past=matching.filter(card=>card.dataset.date<openedOn),visibleActive=active.slice(0,visibleLimit),pastShown=Math.min(pastVisibleLimit,past.length),visiblePast=direction===1?past.slice(Math.max(0,past.length-pastShown)):past.slice(0,pastShown),visible=[...visiblePast,...visibleActive].sort(compare);
+      visible.forEach((card,index)=>{card.hidden=false;loadImage(card,index===0)});
+      const activeRemaining=active.length-visibleActive.length,pastRemaining=past.length-pastShown,pastIncluded=pastShown>0;
+      shown.textContent=visible.length;
+      matched.textContent=active.length+(pastIncluded?past.length:0);
+      empty.hidden=visible.length!==0;
+      empty.textContent=past.length?'当前没有未截止的匹配机会，可加载过往机会。':'没有匹配的海报。';
+      loadMoreWrap.hidden=activeRemaining===0;
+      loadMoreStatus.textContent=activeRemaining?'下一批 '+Math.min(PAGE_SIZE,activeRemaining)+' 张 · 未截止剩余 '+activeRemaining+' 张':'';
+      loadMore.setAttribute('aria-label',activeRemaining?'加载更多未截止机会，下一批 '+Math.min(PAGE_SIZE,activeRemaining)+' 张，还剩 '+activeRemaining+' 张':'全部未截止机会已显示');
+      pastLoadWrap.hidden=past.length===0;
+      pastLoad.setAttribute('aria-expanded',pastIncluded?'true':'false');
+      if(pastShown===past.length&&pastIncluded){pastLoad.dataset.action='hide';pastLoadLabel.textContent='隐藏过往机会';pastLoadStatus.textContent='已显示 '+past.length+' 张';pastLoad.setAttribute('aria-label','隐藏已截止的过往机会')}
+      else{const next=Math.min(PAGE_SIZE,pastRemaining);pastLoad.dataset.action='load';pastLoadLabel.textContent=pastIncluded?'继续加载过往机会':'加载过往机会';pastLoadStatus.textContent=pastIncluded?'下一批 '+next+' 张 · 剩余 '+pastRemaining+' 张':'最近 '+next+' 张 · 共 '+past.length+' 张';pastLoad.setAttribute('aria-label','加载过往机会，下一批 '+next+' 张，共 '+past.length+' 张')}
+    }
     for(const control of [type,country,sort])control.addEventListener('change',()=>update(true));
+    pastLoad.addEventListener('click',()=>{pastVisibleLimit=pastLoad.dataset.action==='hide'?0:pastVisibleLimit+PAGE_SIZE;update()});
     loadMore.addEventListener('click',()=>{visibleLimit+=PAGE_SIZE;update()});
     update();
   </script>
